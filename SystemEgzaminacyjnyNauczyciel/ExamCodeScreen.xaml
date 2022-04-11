@@ -1,0 +1,14 @@
+﻿<Window x:Class="SystemEgzaminacyjnyNauczyciel.ExamCodeScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemEgzaminacyjnyNauczyciel"
+        mc:Ignorable="d"
+        Title="Kod egzaminu" Height="150" Width="200" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Kod egzaminu:" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="CodeLabel" Content="X" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="EndButton" Content="Zakończ" HorizontalAlignment="Center" Margin="0,69,0,0" VerticalAlignment="Top" FontSize="16" Height="30" Width="72" Click="EndButton_Click"/>
+    </Grid>
+</Window>
